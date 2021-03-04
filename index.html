@@ -11,6 +11,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.23/css/jquery.dataTables.css">
 </head>
 
 <body cz-shortcut-listen="true">
@@ -30,7 +31,8 @@
                 <h5>Time Table (CSE – 2A)</h5>
             </div>
             <div>
-                <table class="table table-responsive align-middle table-hover table-bordered border-secondary"
+                <table
+                    class="table table-responsive align-middle table-hover table-bordered border-secondary mydatatables"
                     style="text-align: center;">
                     <thead>
                         <tr>
@@ -51,7 +53,7 @@
                             <td><a href="https://us04web.zoom.us/j/76328792675?pwd=Y2UxU0ZCNGc0TVJEK1pHb0hwZ2FkQT09">M(CSE)
                                     401<br>AM</a></td>
                             <td colspan="2"><a
-                                    href="https://us04web.zoom.us/j/72080584189?pwd=bjhtbTJUZnp1dk5GeUJwZGJPRVZrdz09">M(CSE)
+                                    href="https://us04web.zoom.us/j/76328792675?pwd=Y2UxU0ZCNGc0TVJEK1pHb0hwZ2FkQT09">M(CSE)
                                     491<br>GR1 AM</a></td>
                             <td><strong>B</strong></td>
                             <td><a href="https://us04web.zoom.us/j/79137458805?pwd=TjJVN0tSV1RQemt4T0JibG8rcjFCdz09">CSE
@@ -71,14 +73,15 @@
                             <td><a href="https://us02web.zoom.us/j/82680454860?pwd=cWVlWWx6ajYyR1lEOEdLWGJsMnZoUT09">CSE
                                     402<br>IN</a></td>
                             <td colspan="2"><a
-                                    href="https://us04web.zoom.us/j/72080584189?pwd=bjhtbTJUZnp1dk5GeUJwZGJPRVZrdz09">M(CSE)
+                                    href="https://us04web.zoom.us/j/76328792675?pwd=Y2UxU0ZCNGc0TVJEK1pHb0hwZ2FkQT09">M(CSE)
                                     491<br>GR2 AM</a></td>
                             <td><strong>R</strong></td>
-                            <td><a href="https://us04web.zoom.us/j/76328792675?pwd=Y2UxU0ZCNGc0TVJEK1pHb0hwZ2FkQT09">M(CSE)
-                                    401<br>AM</a></td>
                             <td><a href="https://us02web.zoom.us/j/82290011648?pwd=WWpoSjhCTWFUT0hYWnpyUi9WVTk0UT09">CSE
                                     403<br>DPS</a><br><br>
-                                <a class="btn btn-primary" href="https://forms.gle/Az6YSDXT9J3jvH848" role="button">Attendance</a></td>
+                                <a class="btn btn-primary" href="https://forms.gle/Az6YSDXT9J3jvH848"
+                                    role="button">Attendance</a></td>
+                            <td><a href="https://us04web.zoom.us/j/76328792675?pwd=Y2UxU0ZCNGc0TVJEK1pHb0hwZ2FkQT09">M(CSE)
+                                    401<br>AM</a></td>
                             <td colspan="2"><a
                                     href="https://us04web.zoom.us/j/79137458805?pwd=TjJVN0tSV1RQemt4T0JibG8rcjFCdz09">CSE
                                     491<br>GR2 SC</a>
@@ -98,35 +101,37 @@
                             <td><strong>E</strong></td>
                             <td><a href="https://us02web.zoom.us/j/82290011648?pwd=WWpoSjhCTWFUT0hYWnpyUi9WVTk0UT09">CSE
                                     403<br>DPS</a><br><br>
-                                <a class="btn btn-primary" href="https://forms.gle/Az6YSDXT9J3jvH848" role="button">Attendance</a></td>
-                            <td>HU 402</td>
-                            <td>MC 401</td>
+                                <a class="btn btn-primary" href="https://forms.gle/Az6YSDXT9J3jvH848"
+                                    role="button">Attendance</a></td>
                             <td></td>
+                            <td colspan="2">Soft Skill &amp; Technical Training</td>
                         </tr>
                         <tr>
                             <th scope="row">Thursday</th>
-                            <td>HU 402</td>
+                            <td><a href="http://meet.google.com/qas-biet-njr">HU
+                                    402<br>SKS</a></td>
                             <td><a href="https://us04web.zoom.us/j/79137458805?pwd=TjJVN0tSV1RQemt4T0JibG8rcjFCdz09">CSE
                                     401<br>SC</a></td>
                             <td><a href="https://us02web.zoom.us/j/82290011648?pwd=WWpoSjhCTWFUT0hYWnpyUi9WVTk0UT09">CSE
                                     403<br>DPS</a><br><br>
-                                <a class="btn btn-primary" href="https://forms.gle/Az6YSDXT9J3jvH848" role="button">Attendance</a></td>
+                                <a class="btn btn-primary" href="https://forms.gle/Az6YSDXT9J3jvH848"
+                                    role="button">Attendance</a></td>
                             <td><strong>A</strong></td>
-                            <td>MC 401</td>
-                            <td></td>
-                            <td></td>
+                            <td colspan="2">MC 401</td>
+                            <td><a href="http://meet.google.com/qas-biet-njr">HU
+                                    402<br>SKS</a></td>
                             <td></td>
                         </tr>
                         <tr>
                             <th scope="row">Friday</th>
-                            <td>HU 402</td>
                             <td>MC 401</td>
                             <td></td>
+                            <td><a href="http://meet.google.com/qas-biet-njr">HU
+                                    402<br>SKS</a></td>
                             <td><strong>K</strong></td>
                             <td></td>
                             <td></td>
-                            <td></td>
-                            <td></td>
+                            <td colspan="2">Soft Skill &amp; Technical Training</td>
                         </tr>
                         <tr>
                             <th scope="row">Saturday</th>
@@ -148,7 +153,8 @@
                 <h5>Time Table (CSE – 2B)</h5>
             </div>
             <div>
-                <table class="table table-responsive align-middle table-hover table-bordered border-secondary"
+                <table
+                    class="table table-responsive align-middle table-hover table-bordered border-secondary mydatatables"
                     style="text-align: center;">
                     <thead>
                         <tr>
@@ -261,6 +267,14 @@
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.js">
+    </script>
+    <script>
+        // $('.mydatatables').DataTable();
     </script>
 
 </body>
